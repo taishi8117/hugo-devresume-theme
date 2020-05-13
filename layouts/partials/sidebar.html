@@ -10,16 +10,23 @@
                             {{ partial "awards.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.skills.enable }}
-                            {{ partial "skills.html" . }}
-                            {{ end }}
-
                             {{ if .Site.Params.languages.enable }}
                             {{ partial "languages.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.programming_languages.enable }}
+                            {{ partial "programming_languages.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.skills.enable }}
+                            {{ partial "skills.html" . }}
                             {{ end }}
 
                             {{ if .Site.Params.interests.enable }}
                             {{ partial "interests.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.subreddits.enable }}
+                            {{ partial "subreddits.html" . }}
+                            {{ end }}
                         </aside><!--//resume-aside-->

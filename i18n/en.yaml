@@ -7,9 +7,13 @@
 - id: information
   translation: Information
 - id: interests
-  translation: Interests
+  translation: Professional Interests
+- id: subreddits
+  translation: Frequent Subreddits
 - id: languages
-  translation: Languages
+  translation: Human Languages
+- id: programming_languages
+  translation: Programming Languages
 - id: projects
   translation: Projects
 - id: skills
