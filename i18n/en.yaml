@@ -5,11 +5,11 @@
 - id: experiences
   translation: Work Experience
 - id: information
-  translation: Information
+  translation: Et cetera
 - id: interests
   translation: Professional Interests
 - id: subreddits
-  translation: Frequent Subreddits
+  translation: Subreddits I Like
 - id: languages
   translation: Human Languages
 - id: programming_languages
