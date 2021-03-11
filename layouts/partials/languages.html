@@ -5,7 +5,7 @@
 
                                 <ul class="list-unstyled resume-lang-list">
                                     {{ range .Site.Params.languages.list }}
-                                    <li class="mb-2">{{ .name }} <span class="text-muted">({{ .level }})</span></li>
+                                    <li class="mb-2">{{ with .name }}{{ . | markdownify }}{{ end }} <span class="text-muted">({{ .level }})</span></li>
                                     {{ end }}
                                 </ul>
 
